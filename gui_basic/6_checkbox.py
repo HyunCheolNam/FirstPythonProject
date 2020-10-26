@@ -8,7 +8,7 @@ chkvar = IntVar() #chkvar에 인트형으로 값을 저장한다
 chkbox = Checkbutton(root, text="오늘 하루 보지 않기", variable=chkvar)
 chkbox.select()#자동선택처리
 chkbox.deselect()#선택 해제 처리
-chkbox.pack()
+chkbox.pack()#팩은 필수
 
 def btncmd():
     pass
